@@ -1,0 +1,26 @@
+#pragma once
+
+bool expr();
+bool exprAssign();
+bool exprOr();
+bool exprOrPrim();
+bool exprAnd();
+bool exprAndA();
+bool exprEq();
+bool exprEqE();
+bool exprRel();
+bool exprRelR();
+bool exprAdd();
+bool exprAddA();
+bool exprMul();
+bool exprMulM();
+bool exprCast();
+bool exprUnary();
+bool exprPostfix();
+bool exprPostfixP();
+bool exprPrimary();
+bool stm();
+bool stmCompound();
+bool fnDef();
+bool varDef();
+bool structDef();
